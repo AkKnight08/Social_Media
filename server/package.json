@@ -1,0 +1,44 @@
+{
+  "name": "socialsphere",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "connect-mongo": "^5.1.0",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-layouts": "^1.0.0",
+    "express-session": "^1.17.3",
+    "http-errors": "~1.6.3",
+    "jade": "^0.31.2",
+    "mongoose": "^8.0.3",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.0.2",
+    "params": "^0.1.1",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "populate": "^5.0.1"
+  },
+  "description": "social media site server side",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "Social_Sphere_Server"
+  },
+  "keywords": [
+    "Backend",
+    "Node.js",
+    "Express.js",
+    "MongoDB"
+  ],
+  "author": "Akshay K",
+  "license": "ISC"
+}
